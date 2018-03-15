@@ -1,24 +1,5 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  margin: 0;
+h1 {
+  display: inline-block;
 }
 
 .burning {
@@ -31,6 +12,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  font-family: "Nanum Pen Script", serif;
 }
 
 .warm {
@@ -39,6 +21,42 @@ body {
   left: 0;
 }
 
-.xs {
-  background color:
+@media only screen and (min-width: 20em) {
+
+  body {
+    background-color: #89b9e0;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  body {
+    background-color: #89b9e0;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  body {
+    background-color: #153666;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    background-color: #02182b;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  body {
+    background-color: #02182b;
+  }
+
 }
