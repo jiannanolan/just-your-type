@@ -50,28 +50,14 @@
   }
 
 
+
 @media only screen and (min-width: 25em) {
 
   body {
     background-color: #89b9e0;
   }
 
-  .house {
-    width: 0px;
-    height: 0px;
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
-    border-bottom: 90px solid #cf4f4f;
-    margin: 0 auto;
-    padding-top: 7em;
-  }
-
   .house:after {
-    position: absolute;
-    content: '';
-    width: 180px;
-    height: 130px;
-    background: #fbefef;
     margin-left: -4.3em;
     margin-top: 4.35em;
     padding-top: 7em;
@@ -84,6 +70,13 @@
     background-color: #153666;
   }
 
+  .house {
+    border-bottom: 90px solid #973636;
+  }
+
+  .house:after {
+    background: #c8c1c1;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -92,6 +85,13 @@
     background-color: #02182b;
   }
 
+  .house {
+    border-bottom: 90px solid #531515;
+  }
+
+  .house:after {
+    background: #888071;
+  }
 }
 
 @media only screen and (min-width: 90em) {
