@@ -1,30 +1,50 @@
-h1 {
-  display: inline-block;
-}
+
 
 .burning {
   position: relative;
   top: 0;
   left: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .paper {
   position: absolute;
+  display: block;
   top: 0;
-  left: 0;
-  font-family: "Nanum Pen Script", serif;
+  font-family: 'Neucha', cursive;
+  letter-spacing: 3px;
+  color: white;
+  width: 100%;
 }
 
 .warm {
   position: absolute;
   top: 0;
   left: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.house {
+  position: relative;
+  width: 100%;
+  height: 400%;
 }
 
 @media only screen and (min-width: 20em) {
 
   body {
     background-color: #89b9e0;
+  }
+
+  .house-body {
+  	width: 150px;
+  	height: 150px;
+  	background: red;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, 170%) }
   }
 
 }
