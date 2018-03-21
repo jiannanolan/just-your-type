@@ -1,14 +1,8 @@
 .burning {
-  position: relative;
-  top: 0;
-  left: 0;
   font-family: Lato, sans-serif;
 }
 
 .paper {
-  position: absolute;
-  display: block;
-  top: 0;
   font-family: Neucha, serif;
   letter-spacing: 3px;
   color: white;
@@ -71,8 +65,6 @@
   }
 
   .burning {
-    position: relative;
-    top: 1.4em;
     color: #d8cc63;
   }
 
@@ -101,13 +93,11 @@
   }
 
   .burning {
-    position: relative;
-    top: 0;
     color: #c2b549;
   }
 
   span {
-    color: #000;
+    color: #393939;
   }
 
   .house {
@@ -116,8 +106,8 @@
 
   .house::after {
     background: #888071;
-    margin-left: -4.7em;
-    margin-top: 4.7em;
+    margin-left: -4.6em;
+    margin-top: 4.6em;
   }
 
   .house::before {
